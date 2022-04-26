@@ -2,27 +2,53 @@
 <html>
 <head>
     <title>  My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css";>
 </head>
 
 <body>
     <div class="header">
-        <h1>My Portfolio</h1>
-        <p>This is the subtitle</p>
+        <h1 id="bigHeader">My Portfolio</h1>
+        <p>Software Developers and Data Analyst</p>
 
     </div>
 
-        <h3> wow what a cool website </h3>
-        <p> This is a cool website. This is a cool website.This is a cool website.This is a cool website.This is a cool website.This is a cool website.This is a cool website.This is a cool website.This is a cool website.This is a cool website.This is a cool website. </p>
+        <h3> About me: </h3>
+        <p> Hi my name is Rupal and I am learning to code and hope to work with data and code very soon. Below you will see more about my journey to software development, please click on the text boxes to find out more </p>
+
+        <button onclick="onButtonClicked()">About</button>
+        <button onclick="onButtonClicked()">Projects</button>
+        <button onclick="onButtonClicked()">Contact</button>
+
+
+        <div id = "form">
+            <form>
+                <Name>Name: </Name>
+                <input type="text" name="name"><br>
+                <label>Email: </label>
+                <input type="text" name="Email"><br>
+                <label>Number:</label>
+                <input type="Number" name="Number"><br>
+            </form>
+    </div>
+
+
 
 
 
     <div class="footer">
-        <p> copywrite Rupal 2022 :)</p>
-        
+        <p> copywrite Rupal Joshi 2022 :)</p>
+       
     </div>
 </body>
 
+<script>
+   
+    function onButtonClicked(){
+            console.log("this works");
+        }
 
+    var myButton= document.getElementById("myButtonHome");
+    myButton.addEventListener("click",onButtonClicked);
 
+</script>
 </html>
