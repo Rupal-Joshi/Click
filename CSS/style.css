@@ -35,3 +35,23 @@ body {
     bottom: 0px;
     right: 20px;
 }
+
+
+.text-container{
+    margin: 30px;
+    margin-top: 5%;
+    padding: 2px;
+    padding-bottom: 20px;
+    background-color: lightgray;
+}
+
+
+input[type=text],select,textarea
+{width: 90%;
+padding: 12px;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+}
+
